@@ -1,0 +1,17 @@
+server:
+  port: 8000
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5444/notifier
+    username: notifier
+    password: notifier
+
+springdoc:
+  swagger-ui:
+    enabled: true
+#  api-docs:
+#    path: /api-docs
+
+notifier:
+  allowed-object-types:
+    - ORDER
